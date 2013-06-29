@@ -184,10 +184,10 @@ public class MainActivity extends BaseGameActivity
             // Check to see the developer who's running this sample code read the instructions :-)
             // NOTE: this check is here only because this is a sample! Don't include this
             // check in your actual production app.
-            if (!verifyPlaceholderIdsReplaced()) {
+            /*if (!verifyPlaceholderIdsReplaced()) {
                 complain("Sample not correctly set up. See README!");
                 break;
-            }
+            }*/
 
             // start the sign-in flow
             beginUserInitiatedSignIn();
@@ -226,7 +226,7 @@ public class MainActivity extends BaseGameActivity
      * It merely exists here to check that anyone running THIS PARTICULAR SAMPLE
      * did what they were supposed to in order for the sample to work.
      */
-    boolean verifyPlaceholderIdsReplaced() {
+    /*boolean verifyPlaceholderIdsReplaced() {
         final boolean CHECK_PKGNAME = true; // set to false to disable check (not recommended!)
 
         // Did the developer forget to change the package name?
@@ -241,7 +241,7 @@ public class MainActivity extends BaseGameActivity
             if (getString(i).equalsIgnoreCase("ReplaceMe")) return false;
         }
         return true;
-    }
+    }*/
 
     /** Prints a log message (convenience method). */
     void log(String message) {
