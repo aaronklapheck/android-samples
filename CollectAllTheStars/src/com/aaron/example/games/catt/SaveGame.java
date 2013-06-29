@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.google.example.games.catt;
+package com.aaron.example.games.catt;
 
 import java.util.HashMap;
 import java.util.Iterator;

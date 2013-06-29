@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.google.example.games.catt;
+package com.aaron.example.games.catt;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -31,6 +31,7 @@ import android.widget.TextView;
 import com.google.android.gms.appstate.AppStateClient;
 import com.google.android.gms.appstate.OnStateLoadedListener;
 import com.google.example.games.basegameutils.BaseGameActivity;
+import com.google.example.games.catt.R;
 
 /**
  * Collect All the Stars sample. This sample demonstrates how to use the cloud save features
